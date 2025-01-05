@@ -4,6 +4,7 @@ export const apiVersion =
 export const dataset = assertValue(
   process.env.NEXT_PUBLIC_SANITY_DATASET,
   'Missing environment variable: NEXT_PUBLIC_SANITY_DATASET'
+  // local
 )
 
 export const projectId = assertValue(
