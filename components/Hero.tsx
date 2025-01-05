@@ -14,7 +14,7 @@ type ArrowProps = {
   onClick?: () => void;
 };
 
-// Custom Next Arrow
+// cCustom Next Arrow
 function SampleNextArrow({ onClick }: ArrowProps) {
   return (
     <div
