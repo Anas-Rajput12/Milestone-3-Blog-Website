@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { useParams } from "next/navigation";
 import Content from '@/components/content';
 import { client } from '@/sanity/lib/client';
-
+// p
 const PostPage = () => {
   const { slug } = useParams(); 
 
